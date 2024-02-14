@@ -1,6 +1,30 @@
+body {
+    margin: 0 !important;
+}
+
 .content {
     display: flex;
     flex-direction: column;
-    margin: 1rem auto;
-    width: min-content;
+    margin: 1rem 2rem;
+}
+
+.header {
+    background-color: #3B71CA;
+    color: white;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+p, .submit, input {
+    font-size: large;
+}
+
+.submit {
+    background-color: #3B71CA;
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    width: fit-content;
 }
