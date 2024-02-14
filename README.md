@@ -20,16 +20,16 @@ Currently the job titles are well extracted for computer science fields such as 
 ### Repo Strcture
 <pre>
 root
-|--<a href="https://github.com/scherbatsky-jr/nlp-text-generator/blob/main/LSTM_LM.ipyng">resume-parser.ipynb</a>
-|--<a href="https://github.com/scherbatsky-jr/nlp-text-generator/blob/main/app">app</a>
-|    |--<a href="https://github.com/scherbatsky-jr/nlp-text-generator/blob/main/app/static">static</a>
+|--<a href="https://github.com/scherbatsky-jr/resume-parser/blob/main/resume-parser.ipynb">resume-parser.ipynb</a>
+|--<a href="https://github.com/scherbatsky-jr/resume-parser/tree/main/app">app</a>
+|    |--<a href="https://github.com/scherbatsky-jr/resume-parser/tree/main/app/static">static</a>
 |    |--<a>templates</a>
-|    |   |--<a href="https://github.com/scherbatsky-jr/nlp-text-generator/blob/main/app/templates/index.html">index.html</a>
+|    |   |--<a href="https://github.com/scherbatsky-jr/resume-parser/blob/main/app/templates/index.html">index.html</a>
 |    |
-|    |--<a href="https://github.com/scherbatsky-jr/nlp-text-generator/blob/main/app/app.py">app.py</a>
+|    |--<a href="https://github.com/scherbatsky-jr/resume-parser/blob/main/app/main.py">main.py</a>
 |
-|--<a>data</a>
-   |--<a>skills.jsonl</a>
+|--<a href="https://github.com/scherbatsky-jr/resume-parser/tree/main/data">data</a>
+   |--<a href="https://github.com/scherbatsky-jr/resume-parser/blob/main/data/skills.jsonl">skills.jsonl</a>
 </pre>
 
 ### Running the app
